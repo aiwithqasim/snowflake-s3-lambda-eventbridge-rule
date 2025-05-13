@@ -1,0 +1,6 @@
+s3fullaccess
+lambda execuation role
+
+----- new user ---------
+eventbridge access
+lambdafull access

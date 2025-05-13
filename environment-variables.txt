@@ -1,0 +1,9 @@
+environment - DEV
+oer_app_id - YOUR-APP_KEY (https://openexchangerates.org/)
+oer_base_currency - USD
+oer_base_url - https://openexchangerates.org/api/latest.json
+region_name - us-east-1
+s3_bucket_name - s3-currency-exchange-rate-qh
+snowflake_db - CURRENCY_DB
+snowflake_role - ACCOUNTADMIN
+snowflake_wh - COMPUTE_WH
