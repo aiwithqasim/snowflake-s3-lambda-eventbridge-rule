@@ -1,6 +1,15 @@
-s3fullaccess
-lambda execuation role
+-- lambda role
+AmazonEventBridgeFullAccess
+AmazonS3FullAccess
+AWSLambda_FullAccess
+AWSLambdaBasicExecutionRole
+AWSSecretsManagerClientReadOnlyAccess
 
 ----- new user ---------
 eventbridge access
 lambdafull access
+AmazonEventBridgeFullAccess
+AmazonS3FullAccess
+AWSLambda_FullAccess
+AWSLambdaBasicExecutionRole
+AWSSecretsManagerClientReadOnlyAcce

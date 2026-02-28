@@ -68,7 +68,7 @@ def insert_exchange_rates_to_snowflake():
             s3_client(json_data,timestamp)
 
             query2 = f"""
-            CALL {CURRENCY}.SP_EXCHANGE_RATE_LOADING(%s, %s);
+            CALL {schema}.SP_EXCHANGE_RATE_LOADING(%s, %s);
             """
 
             provider.exe_query(query2, (json_data,timestamp,))      
